@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.jpg");
+}
+.all{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    background-color:rgba(0, 0, 0, 0.788);
+    display: inline-block;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.yellow{
+    padding: 5px;
+    color: yellow;
+    font-size: 1.2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    position: relative;
+    top: 100px;
+}
+.pressed{
+    border: 5px solid yellow;
+    box-shadow:  5px 5px 5px   yellow;
+}
